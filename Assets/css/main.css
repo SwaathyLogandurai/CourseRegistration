@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+}
+
+.top-nav{
+    background-color: black;
+}
+.top-nav p{
+    color: white;
+    padding: 10px 0px;
+    font-size: 18px;
+    text-align: right;
+}
+.top-nav p a{
+    color: yellow;
+}
+.top-nav p button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    margin-left: 12px;
+    border-radius: 5px;
+}
+.nav-menu-list{
+    position: relative;
+    left:100px;
+}
+
+.nav-menu-list ol li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 0px 5px 65px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 0.030em;
+}
+.subList{
+    position: absolute;
+    display: none;
+    top: 43px;
+    left: 0px;
+    padding: 1px;
+    width: 200px;
+}
+.courses{
+    position: relative;
+}
+.courses:hover .subList{
+    display: block;
+    
+}
+.subList li{
+    color:white !important;
+    font-weight:100 !important;
+}
+.main-info{
+    background-image: url(../img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 552px!important;
+    width: 100%;
+}
+.main-img-text{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.main-img-text .img-text {
+    position: absolute;
+    top: 150px;
+    left:10%;
+    color: white !important;
+}
+
+
+.buttonStyle{
+    background-color:White;
+    font-size:20px;
+    border-radius:3px;
+    font-family: calibri;
+    padding:5px;
+    margin:10px;
+    border:none;
+    width:150px;
+    cursor: pointer;
+    color:black;
+}
+.centerHeader{
+    font-size:27px;
+    padding-bottom:20px;
+}
+.centerDiv {
+    width: 600px!important;
+    position: absolute!important;
+    top: 10%!important;
+    margin: 0 auto;
+    text-align: center !important;
+    padding: 5% 0px;
+}
+.yellowText{
+    color:yellow;
+}
+
+
+
+ .formDiv {
+    border: 1px solid white;
+    background: white;
+    height: 480px;
+    border-radius: 3px;
+    width: 300px !important;
+    top: 30px;
+    position: absolute;
+ }
+ .formDiv input {
+     padding:10px;
+     margin: 10px;
+     font-family: Calibri;
+     font-weight:800;
+     width:200px;
+ }
+
+ .formDiv select {
+    padding: 12px;
+    margin: 10px 21px 10px 10px;
+    font-family: Cambria;
+    font-weight:800;
+    width:200px;
+}
+
+.formText {
+    font-family: Calibri;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    margin: 10px;
+  }
+  input[type="submit"]:hover{
+      cursor: pointer;
+  }
+  input[type="submit"]:hover{
+    cursor: pointer;
+}
+.col-md-3 {
+    position: relative;
+}
+.formDiv .btn-primary{
+    left:100px !important;
+    position: relative;
+}
+ol li:hover{
+    cursor: pointer;
+  }
+  .subList li:hover{
+    color:yellow!important;
+  }
+  
+  
+@media only screen and (max-width: 600px) {
+  .formDiv{ display:none}
+}
+
+  @media only screen and (max-width: 992px) {
+    .main-info{height:1100px !important;
+                
+            }
+    
+    .formDiv{    top: 500px !important;
+               left: 34% !important;}
+
+
+  }
